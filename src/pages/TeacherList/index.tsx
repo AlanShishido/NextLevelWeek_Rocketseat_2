@@ -59,7 +59,7 @@ function TeacherList() {
                             { value: '6', label: 'Sábado' },
                         ]}
                     />
-                    <Input name="time" label="Horário" type="time" value="time" onChange={(e) => { setTime(e.target.value) }} />
+                    <Input name="time" label="Horário" type="time" value={time} onChange={(e) => { setTime(e.target.value) }} />
 
 
                     <button type="submit">Buscar</button>
